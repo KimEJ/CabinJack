@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+svg {
+  fill: #70757a;
+}
+
+.google-translate-icon {
+  content: url(/CabinJack.png);
+  width: 8em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-translate-text {
+  color: #5f6368;
+  opacity: 1;
+  padding-left: 4px;
+  font-size: 48px;
+  font-family: "Product Sans", Arial, sans-serif;
+}
+
+.textarea-from {
+  border: 0;
+}
+
+.textarea-to {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 0;
+}
+
+.textarea-icon-buttons {
+  position: relative;
+}
+
+.textarea-clear-button {
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.textarea-icon-buttons-from {
+  bottom: 0;
+  left: 0;
+  padding: 8px 0;
+  position: absolute;
+}
+
+.textarea-icon-buttons-from button {
+  padding: 0 8px;
+}
+
+.textarea-icon-buttons-to {
+  bottom: 0;
+  left: 0;
+  padding: 8px 0;
+  position: absolute;
+}
+
+.textarea-icon-buttons-to button {
+  padding: 0 8px;
+}
